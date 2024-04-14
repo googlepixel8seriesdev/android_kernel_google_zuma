@@ -1,0 +1,11 @@
+drops {
+  android_build_drop {
+    build_id: "11417428"
+    target: "shusky_debug_kmemleak"
+    source_file: "gpu_cooling.ko"
+  }
+  dest_file: "debug_kmemleak/gpu_cooling.ko"
+  version: "11417428"
+  version_group: "kernel-and-modules"
+  git_project: "device/google/shusky-kernel"
+}
